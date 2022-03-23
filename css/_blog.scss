@@ -1,0 +1,92 @@
+// Blog Starts
+
+.blog{
+    background-image: url("../img/blog_bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.blog h1{
+    padding-top: 7rem;
+    color: $whitecolor;
+    padding-bottom: 3rem;
+}
+
+.blog .blog-detail{
+    display: flex;
+    margin-bottom: 1.5rem;
+    background-color: $whitecolor;
+    text-align: center;
+}
+
+.blog button{
+    margin-top: 1.7rem;
+    margin-bottom: 6rem;
+}
+
+.blog .blog-img{
+    position: relative;
+    background: $blackcolor;
+}
+
+.blog .blog-img:hover img{
+    opacity: .8;
+    filter: blur(1.5px);
+}
+
+.blog .blog-img:hover .overlay{
+    opacity: 1;
+}
+
+.blog .blog-img span:hover{
+    color: $primarycolor;
+    border-color: $primarycolor;
+    cursor: pointer;
+}
+
+.blog .blog-img .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 300px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: $whitecolor;
+    opacity: 0;
+}
+.blog-img .overlay span{
+    border: 1px solid $whitecolor;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.blog .blog-detail .blog-txt{
+    margin-top: 3rem;
+}
+
+.blog-detail .blog-txt p{
+    color: gray;
+    font-size: 0.7rem;
+}
+
+.blog-txt h6{
+    color: gray;
+    font-weight: bold;
+}
+
+.blog-detail .blog-txt hr{
+    width: 90%;
+    border: 1px solid #e7dede;
+}
+
+.blog-detail .blog-txt h2{
+    font-size: 1.4rem;
+    padding: 0px 2rem;
+    line-height: 2rem;
+}
+
+.blog button::after{
+    bottom: 0px;
+}

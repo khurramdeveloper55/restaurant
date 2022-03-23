@@ -1,0 +1,213 @@
+// Reservation Starts
+
+.reservation h1{
+    padding-top: 5rem;
+}
+
+.reservation h2{
+    font-size: 1.5rem;
+    margin-top: 2.3rem;
+}
+
+.reservation h3{
+    font-size: 1.1rem;
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+.reservation input{
+    width: 70%;
+    margin-bottom: 1.3rem;
+    border: 2px dotted gray;
+    border-radius: 2px;
+    padding: 1rem 0px;
+    background-color: #f0f0f0;
+    padding-left: 1rem;
+    color: $blackcolor;
+}
+
+.reservation .field button{
+    width: 70%;
+    height: 54px;
+    display: inline;
+    background: none;
+    border: 2px dotted gray;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: $blackcolor;
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.reservation .field span{
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.reservation .field ul{
+    width: 70%;
+}
+
+.reservation .field #on-rs{
+    margin-left: 11.1rem;
+}
+
+.reservation button{
+    margin-top: 1.7rem;
+    margin-bottom: 5rem;
+}
+
+.reservation .clr-aft-hov:hover{
+    color: $blackcolor;
+}
+
+// News Letter Starts
+
+.newsletter{
+    background-image: url("../img/newsletter-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.newsletter h1{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    color: $whitecolor;
+}
+.newsletter p{
+    font-size: 1.1rem;
+    color: $whitecolor;
+}
+.newsletter input{
+    width: 60%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding: 1rem 0px;
+    border: 2px dotted rgb(236, 217, 217);
+    padding-left: 1rem;
+    border-radius: 5px;
+}
+.newsletter .inline-input{
+    position: relative;
+    display: inline;
+}
+.newsletter span{
+    border: 2px dotted rgb(236, 217, 217);
+    color: $whitecolor;
+    background-color: $primarycolor;
+    font-size: 1.5rem;
+    padding: 1rem 1.2rem;
+    position: absolute;
+    top: -1.3rem;
+    right: 0;
+    border-radius: 5px;
+}
+.newsletter span:hover{
+    background-color: $whitecolor;
+    cursor: pointer;
+    color: $blackcolor;
+}
+
+// Footer BG Starts
+
+.footer-bg{
+    background-image: url("../img/footer_background.jpg");
+    padding: 7rem 0px;
+}
+
+.footer-bg .logo{
+    margin-bottom: 2rem;
+}
+.footer-bg p{
+    color: $whitecolor;
+    line-height: 1.7rem;
+}
+.footer-bg p span{
+    color: $primarycolor;
+}
+.footer-bg p span:hover{
+    cursor:auto;
+}
+.footer-bg p a{
+    color: $whitecolor;
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+.footer-bg ul li{
+    list-style: none;
+    margin-left: -2.6rem;
+    padding-bottom: 0.5rem;
+}
+.footer-bg ul li a{
+    color: $whitecolor;
+    text-decoration: none;
+}
+.footer-bg ul li{
+    transition: all 300ms ease;
+}
+.footer-bg ul li:hover{
+    transform: translateX(5px);
+}
+.footer-bg ul li:hover a{
+    color: $primarycolor;
+}
+.footer-bg p .recipe-lnk:hover{
+    text-decoration: none;
+    color: $primarycolor;
+}
+.footer-bg h3{
+    font-family: $secondaryfont;
+    color: $primarycolor;
+}
+
+.footer-bg .time{
+    color: gray;
+}
+
+.footer-bg span{
+    color: $whitecolor;
+    font-size: 1.4rem;
+    padding-right: 1rem;
+    transition: all 200ms ease;
+}
+
+.footer-bg span:hover{
+    cursor: pointer;
+    color: $primarycolor;
+}
+
+// Footer Starts
+
+footer{
+    background-color: $primarycolor;
+}
+.foot-border{
+    border-top: 2px dotted $whitecolor;
+}
+.foot-border p{
+    margin: 0;
+    padding: 1.5rem 0px;
+    color: $whitecolor;
+    letter-spacing: 1px;
+}
+
+
+// Scrolling
+.scrollup{
+	width:40px;
+	height:40px;			
+	opacity:0;
+	position:fixed;
+	bottom:20px;
+	right:40px;
+	z-index: 100000;
+	background:url(../img/icon_top.png) no-repeat;
+}
+
+.scrollup.appear{
+	opacity:.4;
+}

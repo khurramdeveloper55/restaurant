@@ -1,0 +1,105 @@
+// Team Starts
+
+.team-main{
+    background-image: url("../img/team_bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.team-main .team-bg{
+    background-color: $whitecolor;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.team-bg .team-img{
+    background-color: $blackcolor;
+}
+
+.team-bg:hover img{
+    opacity: 0.6;
+    border-bottom: 0;
+    transition: all 500ms ease-in-out;
+}
+
+.team-bg:hover .team-txt{
+    background: $primarycolor;
+    transition: all 500ms ease-in-out;
+}
+
+.team-bg:hover .team-txt{
+    border-top: 1px solid $primarycolor;
+    transition: all 0ms ease-in-out;
+}
+
+.team-bg:hover p, .team-bg:hover hr{
+    color: $whitecolor;
+    border-color: $whitecolor;
+    transition: all 500ms ease-in-out;
+}
+
+.team-bg:hover span{
+    background-color: $whitecolor;
+    transition: all 500ms ease-in-out;
+}
+
+.team-bg:hover h2{
+    color: $whitecolor;
+    transition: all 500ms ease-in-out;
+}
+
+.team-main .team-txt h2{
+    margin-top: 0;
+    padding-top: 2rem;
+}
+
+.team-main h1{
+    padding-top: 7rem;
+    color: $whitecolor;
+    margin-top: 0;
+}
+
+.team-main p{
+    padding: 0px 15rem;
+    color: $whitecolor;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    line-height: 2rem;
+}
+
+.team-bg p{
+    color: gray;
+    padding:0px 1rem;
+    font-size: 0.9rem;
+    line-height: 1.7rem;
+}
+
+.team-bg hr{
+    margin-top: 3rem;
+    border-color: gray;
+    width: 85%;
+}
+.team-bg img{
+    width: 100%;
+    border-bottom: 1px solid rgb(214, 200, 200);
+}
+
+.team-bg span{
+    width: 35px;
+    height: 35px;
+    font-size: 1.1rem;
+    line-height: 35px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.team-bg span:hover{
+    cursor: pointer;
+}
+
+.team-bg h2{
+    font-family: $secondaryfont;
+    color: $blackcolor;
+}

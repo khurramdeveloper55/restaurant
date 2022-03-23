@@ -1,0 +1,95 @@
+// Pricing Starts
+
+.pricing{
+    background-image: url("../img/full-bg.png");
+    background-size: cover;
+}
+
+.pricing h1{
+    margin: 0;
+    padding-top: 6rem;
+}
+
+.pricing p{
+    padding: 0px 15rem;
+    color: gray;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+    line-height: 2rem;
+}
+
+.pricing .price-cards{
+    border: 1px solid $primarycolor;
+    text-align: center;
+    border-radius: 3px 3px 0px 0px;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    transition: all 300ms ease;
+}
+
+.pricing .price-cards:hover{
+    box-shadow: 0px 0px 65px -40px;
+    transform: translateY(-5px);
+}
+
+.price-cards .card-head{
+    background-color: $primarycolor;
+    padding-top: 1.4rem;
+    padding-bottom: 2rem;
+}
+
+.price-cards .card-head h2{
+    font-size: 1.2rem;
+    color: $whitecolor;
+    font-weight: bold;
+}
+
+.price-cards .rates{
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #e7e3e3;
+}
+
+.price-cards .rates h2{
+    margin: 0;
+    padding: 2.4rem 0px;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.price-cards ul li{
+    padding: 0.8rem 0px;
+    margin-left: -2.7rem;
+    border-bottom: 1px solid #e7e3e3;
+}
+
+.price-cards ul .no-bd{
+    border-bottom: 0;
+}
+
+.price-cards .rates span{
+    color: $primarycolor;
+}
+
+.pricing .price-cards ul{
+    list-style: none;
+    background-color: $whitecolor;
+}
+
+.price-cards .btn-bg{
+    background-color: #f5f5f5;
+    padding: 0.6rem 0px;
+}
+
+.price-cards .btn-aft-hov:hover{
+    background-color: $whitecolor;
+}
+
+.price-cards button:hover{
+    color: $blackcolor;
+}
+
+.price-cards button{
+    width: 90%;
+    font-weight: 500;
+}

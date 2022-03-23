@@ -1,0 +1,43 @@
+// About Section Starts
+
+.about-us{
+    background-color: #E6E6E6;
+}
+
+h1{
+    font-size: 3.4rem;
+    font-weight: bolder;
+    font-family: $secondaryfont;
+    color: $primarycolor;
+}
+.about-us h2{
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.about-us p{
+    padding-right: 5rem;
+    color: gray;
+    line-height: 1.7rem;
+}
+
+.about-us img{
+    width: 100%;
+    border: 10px solid $whitecolor;
+    border-radius: 50%;
+}
+
+.about-us .pad-tb{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.about-us .about-main{
+    text-align: center;
+    position: relative;
+}
+.about-us .about-in{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
