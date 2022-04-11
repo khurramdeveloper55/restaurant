@@ -1,0 +1,369 @@
+// Media Query Starts
+
+@media only screen and (max-width:1250px){
+    .header-top .navbar-default .navbar-right{
+        margin-right: -5px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .header-top .navbar-default .navbar-right{
+        margin-right: -5px;
+    }
+    .header-top .navbar-default .navbar-collapse ul li a{
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .reservation .field #on-rs{
+        margin-left: 9.1rem;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .header-top .navbar-default .navbar-right{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width:993px){
+    .navbar-default .navbar-header{
+        width: 100%;
+    }
+    .navbar-default .navbar-toggle{
+        display: block;
+        width: 50px;
+        border: none;
+        margin-top: 15px;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+        color: red;
+        background: transparent;
+    }
+
+    .header-top .icon-bar{
+        border: 1px solid red;
+    }
+
+    .navbar-default .navbar-collapse{
+        background-color: rgba(29, 22, 26, 0.933);
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .navbar-default .navbar-collapse .navbar-nav{
+        display: none;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        border-top: 1px solid #fff;
+        
+    }
+    .navbar-default .navbar-collapse .navbar-nav li{
+        float: none;
+    }
+    .nav-scrolled .navbar{
+        margin-bottom: 0px;
+    }
+
+    .about-main img{
+        width: 60%;
+        margin-top: 2rem;
+    }
+    .about-us .about-in img{
+        width: 100%;
+    }
+    .about-us .pad-tb{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .team-main .top-margin{
+        margin-top: -4rem;
+    }
+
+    .blog .blog-img .overlay{
+        line-height: 200px;
+        font-size: 1rem;
+    }
+    .blog-img span{
+        padding: 0.8rem;
+    }
+    .blog .blog-detail .blog-txt{
+        margin-top: 0;
+    }
+    .blog-detail .blog-txt h2{
+        font-size: 1rem;
+        padding: 0 5px;
+        line-height: 2rem;
+    }
+    .blog-detail img{
+        width: 100%;
+    }
+
+    .price-cards .rates h2{
+        padding: 2rem 0px;
+        font-size: 2rem;
+    }
+
+    .reservation .field #on-rs{
+        margin-left: 7.2rem;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .about-main img{
+        width: 60%;
+    }
+    .team-main .pad-rl{
+        padding: 0px 7rem;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .banner h1{
+        color: #fff;
+        font-family: Nautilus, cursive;
+        font-size: 4rem;
+        margin-bottom: 1.4rem;
+        margin-top:3rem;
+    }
+
+    .pricing p{
+        padding: 0px 7rem;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .navbar-default .navbar-header{
+        width: 100%;
+    }
+    .navbar-default .navbar-collapse{
+        padding-left: 15px;
+    }
+    .navbar-default .navbar-collapse .navbar-nav{
+        border-top: none;
+    }
+    .nav-scrolled .navbar{
+        margin-bottom: 15px;
+    }
+
+    .scroll-down{
+        display: none;
+    }
+
+    .banner h1{
+        font-size: 3rem;
+    }
+    .banner h2{
+        font-size: 2rem;
+    }
+    .banner p{
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+    }
+    .banner button{
+        margin-top: 2.5rem;
+    }
+
+    .about-us h1{
+        font-size: 2.4rem;
+    }
+
+    .carousel-section h1{
+        font-size: 2.4rem;
+    }
+    .carousel-section p{
+        padding-left:0px ;
+        padding-right: 0px;
+    }
+
+    .slick-main h1{
+        font-size: 2.4rem;
+    }
+    .slick-main p{
+        padding-left:0px ;
+        padding-right: 0px;
+    }
+    .main-menu{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .slide-title{
+        padding-bottom: 22px;
+    }
+    .slider-nav h2{
+        font-size: 0.9rem;
+    }
+    .slider-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .slide-detail h2{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .slide-detail p{
+        text-align: center;
+    }
+    .slider-inner span{
+        display: none;
+    }
+    .slider-inner p{
+        padding: 0px 60px;
+    }
+
+    .team-main h1{
+        font-size: 2.4rem;
+    }
+    
+    .team-main .pad-rl{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 1rem;
+    }
+    .team-main .team-bg{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .team-main .top-margin{
+        margin-bottom: 6rem;
+    }
+
+    .gallery h1{
+        font-size: 2.4rem;
+    }
+
+    .pricing h1{
+        font-size: 2.4rem;
+    }
+    .pricing p{
+        padding: 0px;
+    }
+
+    .blog-detail{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .blog h1{
+        font-size: 2.4rem;
+    }
+    .blog .blog-img .overlay{
+        line-height: 550px;
+        font-size: 1.3rem;
+    }
+    .blog .blog-img span{
+        padding: 1.2rem;
+    }
+
+    .reservation h1{
+        font-size: 2.4rem;
+    }
+    .reservation input{
+        width: 95%;
+    }
+    .reservation .field button{
+        width: 95%;
+    }
+    .reservation .field ul{
+        width: 95%;
+    }
+    .reservation .field #on-rs{
+        margin-left: 0;
+    }
+    .reservation .bot-m{
+        margin-bottom: 1.4rem;
+    }
+    .reservation .sm-lc{
+        text-align: left;
+    }
+    .newsletter h1{
+        font-size: 2.4rem;
+    }
+    .newsletter input{
+        width: 80%;
+    }
+}
+
+@media  only screen and (max-width:520px) {
+
+    .blog .blog-img .overlay{
+        line-height: 450px;
+        font-size: 1.1rem;
+    }
+    .blog .blog-img span{
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .slider-inner p{
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width:455px){
+    .about-us h2{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    .about-us .about-in img{
+        width: 80%;
+    }
+
+    .foot-border p{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .blog .blog-img .overlay{
+        line-height: 400px;
+        font-size: 1rem;
+    }
+    .blog .blog-img span{
+        padding: 0.8rem;
+    }
+}
+
+
+@media only screen and (max-width:420px){
+    .slick-main p{
+        margin-bottom: 4rem;
+    }
+    .slick-prev{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        font-size: 0px;
+        position: absolute;
+        top: -45px;
+        left: 0;
+        background-image: url(../img/back.png);
+    }
+    .slick-prev:hover{
+        background: $primarycolor url(../img/back_hover.png);
+    }
+    .slick-next{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        font-size: 0px;
+        position: absolute;
+        top: -45px;
+        right: 0;
+        background-image: url(../img/next.png);
+    }
+    .slick-next:hover{
+        background: $primarycolor url(../img/next_hover.png);
+    }
+}
+
+@media  only screen and (max-width:375px){
+    .blog .blog-img .overlay{
+        line-height: 300px;
+    }
+}

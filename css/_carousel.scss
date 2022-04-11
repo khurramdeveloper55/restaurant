@@ -1,0 +1,95 @@
+// Carousel Starts
+
+.carousel-section{
+    background-image: url("../img/special_menu_bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #fff;
+    background-blend-mode: darken;
+    padding: 7% 0 5%;
+}
+
+.carousel-section p{
+    font-size: 1.2rem;
+    padding: 0px 4.5rem;
+    color: $whitecolor;
+    line-height: 2.2rem;
+    padding-bottom: 1rem;
+}
+.carousel-section .item{
+    position: relative;
+    background: $primarycolor;
+    border: 5px solid $whitecolor;
+    z-index: 200;
+}
+.carousel-section img{
+    width: 100%;
+}
+
+.carousel-section img:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+
+.item:hover .item-info{
+    opacity: 1;
+    transition: all 300ms ease;
+    transform: scale(1,1)
+}
+
+.item-info:hover{
+    transition: all 300ms ease;
+}
+
+.caption:hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:rgba(231, 91, 30, 0.5);
+}
+
+.caption .item-info{
+    font-style: italic;
+    border: 5px solid $whitecolor;
+    position: absolute;
+    bottom: 0;
+    margin: 0px 40px;
+    opacity: 0;
+    z-index: 400;
+    transform: scale(0,0);
+    transition: all 300ms ease;
+}
+.caption .item-info h4{
+    text-align: center;
+    color: $whitecolor;
+}
+.caption .item-info p{
+    color: $whitecolor;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    padding: 0px 1rem;
+}
+.caption .item-info hr{
+    width:50%;
+}
+.caption a{
+    text-decoration: none;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 18px;
+    height: 18px;
+    border: 2px solid $whitecolor;
+    background-color: $primarycolor;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: $blackcolor;
+}
+
+.carousel-section button{
+    width: 30px;
+}

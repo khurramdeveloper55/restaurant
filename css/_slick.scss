@@ -1,0 +1,76 @@
+// Slick
+
+.slick-main h1{
+    padding-top: 5rem;
+}
+.slick-main p{
+    font-size: 1.2rem;
+    padding: 0px 5rem;
+    color: gray;
+    line-height: 2.2rem;
+    padding-bottom: 2rem;
+}
+.main-menu{
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.slider-nav{
+    border-bottom: 1px solid #ddd;
+    height: 160px;
+    margin-bottom: 30px;
+}
+.slide-title{
+    padding-bottom: 12px;
+}
+.slider-nav h2{
+    font-size: 1.5rem;
+}
+.slider-nav hr{
+    width: 50%;
+    border-color: #000;
+    margin-top: 0;
+}
+
+.slider-inner{
+    display: flex;
+}
+
+.slide-img{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.slide-img img{
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+.slide-detail h2{
+    font-size: 1.4rem;
+    font-family: $secondaryfont;
+    color: $primarycolor;
+}
+.slide-detail p{
+    font-size: 0.9rem;
+    padding-left: 0;
+    padding-right: 2rem;
+}
+.slider-off{
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.slider-off span{
+    display: block;
+    border: 1px solid $primarycolor;
+    width: 92px;
+    height: 92px;
+    line-height: 92px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.s-active{
+    background: #e75b1e;
+    color: #fff;
+}

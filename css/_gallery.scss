@@ -1,0 +1,64 @@
+// Gallery Starts
+
+.gallery .gal-img{
+    margin-bottom: 2rem;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background: $primarycolor;
+}
+
+.gal-img::after{
+    content: "\e003";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2.5rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 350px;
+    opacity: 0;
+    transition: all 500ms ease;
+    color: $whitecolor;
+}
+
+.gal-img:hover::after{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.gal-img:hover img{
+    opacity: .3;
+}
+
+.gallery h1{
+    margin-top: 6rem;
+}
+
+.gallery p{
+    font-size: 1.2rem;
+    color: gray;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.gal-img img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    transition: all 500ms ease-in-out;
+}
+
+.gallery .gal-img{
+    background: $primarycolor;
+}
+
+.gallery img:hover{
+    transition: all 500ms ease-in-out;
+    opacity: 0.6;
+}

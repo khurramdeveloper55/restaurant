@@ -1,0 +1,76 @@
+// Navigation Starts
+
+.header-top{
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    background: none;
+    z-index: 999;
+}
+.navbar-default{
+    background: transparent;
+    border: none;
+}
+.navbar-collapse{
+    margin-top: 28px;
+}
+.navbar-default .navbar-collapse ul li a{
+    color: $whitecolor;
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    margin: 0px 16px;
+    padding: 12px 0px;
+    transition: color .4s;
+}
+
+.navbar-collapse ul li a::before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    transform: scale3d(0, 1, 1);
+    transform-origin: left;
+    transition: transform .5s cubic-bezier(0.075, 0.85, 0.083, 1);
+}
+.navbar-collapse ul li a::before{
+    background-color: #b5b5b5;
+}
+.navbar-default .navbar-collapse ul li a:hover{
+    color: $whitecolor;
+}
+.navbar-collapse ul li a:hover::before, .navbar-collapse ul li a:focus::before{
+    transform: scale3d(1, 1, 1);
+}
+.navbar-default .navbar-collapse ul li.active a, .navbar-default .navbar-collapse ul li.active a:hover{
+    background: none;
+    color: red;
+}
+.navbar-default .navbar-collapse ul li.active a:focus{
+    color: red;
+    background: none;
+}
+.navbar-default .navbar-collapse ul li a:focus{
+    color: $whitecolor
+}
+.navbar-default .navbar-collapse ul li.active a::before{
+    background-color: red;
+    transform: scale3d(1, 1, 1);
+}
+
+.nav-scrolled{
+    background-color: #333;
+    box-shadow: 0 3px 20px rgba(black, 0.2);
+}
+.nav-scrolled img{
+    width: 150px;
+    margin-top: 8px;
+}
+.nav-scrolled .navbar-default .navbar-collapse{
+    margin-right: 10px;
+}
+.nav-scrolled .navbar-default .navbar-collapse ul li a{
+    font-size: 13px;
+}
